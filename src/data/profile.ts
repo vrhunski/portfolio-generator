@@ -96,36 +96,35 @@ export const profile: Profile = {
   // -------------------------------------------------------------------------
   // BASIC INFO (Required)
   // -------------------------------------------------------------------------
-  name: 'Alex Johnson',
-  title: 'Senior Software Engineer',
+  name: 'Branislav Vrtunski',
+  title: 'Senior Software Developer & Application Manager',
   photo: '/images/profile.jpg', // Set to '' to hide photo
-  email: 'alex.johnson@example.com',
-  location: 'San Francisco, CA',
+  email: 'branislav.vrtunski@gmail.com',
+  location: 'Freiberg am Neckar, Germany',
 
   // -------------------------------------------------------------------------
   // CONTACT & SOCIAL (Optional - remove or set to undefined if not needed)
   // -------------------------------------------------------------------------
-  phone: '+1 (555) 123-4567',
-  website: 'https://alexjohnson.dev',
-  linkedin: 'https://linkedin.com/in/alexjohnson',
-  github: 'https://github.com/alexjohnson',
-  twitter: 'https://twitter.com/alexjohnson',
+  phone: '+49 (0)157 33720211',
+  // website: 'https://your-website.com',  // Add if needed
+  // linkedin: 'https://linkedin.com/in/yourprofile',  // Add if needed
+  // github: 'https://github.com/yourusername',  // Add if needed
 
   // -------------------------------------------------------------------------
   // PROFESSIONAL SUMMARY
   // Keep this concise: 2-4 sentences that capture who you are professionally
   // -------------------------------------------------------------------------
-  summary: `Results-driven software engineer with 8+ years of experience building scalable web applications. Passionate about clean code, performance optimization, and mentoring junior developers. Expert in React, TypeScript, and cloud architecture.`,
+  summary: `Senior software developer and team lead with 15+ years of experience in application design, development support and software testing across a variety of platforms. Expert in advanced development methodologies, tools and processes contributing to the design and rollout of cutting-edge software applications. Customer-facing technical consultant with managerial skills.`,
 
   // -------------------------------------------------------------------------
   // KEY HIGHLIGHTS
   // 3-5 achievement statements with metrics when possible
   // -------------------------------------------------------------------------
   highlights: [
-    'Led development of platform serving 1M+ users',
-    'Reduced page load time by 60%',
-    'Managed team of 5 engineers',
-    'Speaker at 3 tech conferences',
+    '15+ years of experience in software development',
+    'Led development of aftersales business web applications for Porsche AG',
+    'Expert in Java, Spring Boot, Angular and enterprise architectures',
+    'Managed teams and served as Application Manager',
   ],
 };
 

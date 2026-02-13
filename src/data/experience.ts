@@ -121,30 +121,39 @@ export const experience: Experience[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'exp-1',
-    title: 'Senior Software Engineer',
-    company: 'TechCorp Inc.',
-    // companyLogo: '/logos/techcorp.png',  // Uncomment and add logo if you have one
-    location: 'San Francisco, CA',
+    title: 'Senior Software Developer – Application Manager',
+    company: 'MHP Management- und IT-Beratung GmbH',
+    location: 'Ludwigsburg, Germany',
     type: 'full-time',
-    startDate: '2022-01',
-    // endDate: undefined,  // Omit or undefined for current position
+    startDate: '2018-08',
     current: true,
     description:
-      'Lead development of customer-facing web applications and mentor junior developers.',
+      'Developing aftersales business web applications for Porsche AG. Managing applications as Application Manager with technical and managerial responsibilities.',
     achievements: [
-      'Architected microservices platform handling 10M+ requests/day',
-      'Reduced deployment time by 80% through CI/CD improvements',
-      'Mentored 3 junior developers to mid-level positions',
-      'Led migration from monolith to microservices architecture',
+      'Developing aftersales business web applications for Porsche AG using Java, Spring Boot, Spring Batch, Angular, Hibernate, Gradle, Tomcat, RESTful API, SOAP, ElasticSearch and DB2',
+      'Completely rewriting, continuously improving and maintaining several applications in World Warranty System, both backends and UIs',
+      'Writing technical project specifications and document specifications',
+      'Consulting with the project owner on project status, proposals and technical issues',
+      'Providing direction and interaction with developer daily tasks and projects as Application Manager',
+      'Using Continuous Delivery practices with SVN, Git, Jenkins, Bamboo, GitLab, Sonar and Artifactory',
+      'Using SCRUM and SAFe agile methodology with JIRA for issue tracking and project management',
     ],
     technologies: [
-      'React',
-      'TypeScript',
-      'Node.js',
-      'PostgreSQL',
-      'AWS',
-      'Docker',
-      'Kubernetes',
+      'Java',
+      'Spring Boot',
+      'Spring Batch',
+      'Angular',
+      'Hibernate',
+      'Gradle',
+      'Tomcat',
+      'RESTful API',
+      'SOAP',
+      'ElasticSearch',
+      'DB2',
+      'Jenkins',
+      'Git',
+      'JIRA',
+      'SAFe',
     ],
   },
 
@@ -153,20 +162,38 @@ export const experience: Experience[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'exp-2',
-    title: 'Software Engineer',
-    company: 'StartupXYZ',
-    location: 'San Francisco, CA',
+    title: 'Senior Java Developer and Service Manager',
+    company: 'NTT Data Romania',
+    location: 'Novi Sad, Serbia',
     type: 'full-time',
-    startDate: '2019-03',
-    endDate: '2021-12',
+    startDate: '2016-12',
+    endDate: '2018-08',
     current: false,
-    description: 'Full-stack development for a fast-growing SaaS platform.',
+    description:
+      'Developing aftersales business web applications for Porsche AG. Serving as Service Manager with team leading responsibilities.',
     achievements: [
-      'Built real-time collaboration features used by 50K+ users',
-      'Implemented automated testing reducing bugs by 40%',
-      'Optimized database queries improving response time by 60%',
+      'Developing aftersales business web applications for Porsche AG using Java, Spring Boot, Angular, Hibernate, Gradle, RESTful API, SOAP, ElasticSearch and DB2',
+      'Completely rewriting, continuously improving and maintaining several applications in World Warranty System',
+      'Writing project technical specifications and document specifications',
+      'Consulting with project owner on project status, proposals and technical issues',
+      'Providing direction and interaction with developer daily tasks as team leader and service manager',
+      'Using Continuous Delivery practices with SVN, Git, Jenkins, Bamboo, GitLab, Sonar and Artifactory',
+      'Using SCRUM and SAFe agile methodology with JIRA',
     ],
-    technologies: ['React', 'Python', 'Django', 'PostgreSQL', 'Redis', 'AWS'],
+    technologies: [
+      'Java',
+      'Spring Boot',
+      'Angular',
+      'Hibernate',
+      'Gradle',
+      'RESTful API',
+      'SOAP',
+      'ElasticSearch',
+      'DB2',
+      'Jenkins',
+      'Git',
+      'JIRA',
+    ],
   },
 
   // ---------------------------------------------------------------------------
@@ -174,44 +201,129 @@ export const experience: Experience[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'exp-3',
-    title: 'Junior Developer',
-    company: 'WebAgency Co.',
-    location: 'Los Angeles, CA',
+    title: 'Senior Java Developer and Technical Team Leader',
+    company: 'Levi9',
+    location: 'Novi Sad, Serbia',
     type: 'full-time',
-    startDate: '2016-06',
-    endDate: '2019-02',
+    startDate: '2010-10',
+    endDate: '2016-12',
     current: false,
     description:
-      'Developed custom web solutions for various clients across different industries.',
+      'Development of energy platform and performance management platform. Technical team leader responsibilities.',
     achievements: [
-      'Delivered 20+ client projects on time and within budget',
-      'Introduced component-based architecture improving code reuse',
-      'Created internal tools saving 10 hours/week of manual work',
+      'Development of power house energy platform with microservices architecture using Spring Boot and Spring Cloud on AWS',
+      'Team leader for NetX application performance management platform',
+      'Development of Autotelegraaf advertising system for automotive market',
+      'Consulting with customers on project status, proposals and technical issues',
+      'Preparing detailed reports concerning project specifications and activities',
+      'Leading team members during planning, design and development of robust solutions',
+      'Using SCRUM agile methodology with JIRA for issue tracking and project management',
+      'Using Continuous Delivery with GitLab, Jenkins, Sonar and Nexus',
     ],
-    technologies: ['JavaScript', 'React', 'PHP', 'MySQL', 'WordPress'],
+    technologies: [
+      'Java 8',
+      'Java EE 7',
+      'Spring Boot',
+      'Spring Cloud',
+      'AWS',
+      'JSF',
+      'PrimeFaces',
+      'RichFaces',
+      'JPA',
+      'WildFly',
+      'JSP',
+      'Spring',
+      'Hibernate',
+      'Solr',
+      'Tomcat',
+      'GitLab',
+      'Jenkins',
+      'JIRA',
+    ],
   },
 
   // ---------------------------------------------------------------------------
-  // ADD MORE POSITIONS HERE
-  // Copy the template below and fill in your details
+  // EARLIER POSITION
   // ---------------------------------------------------------------------------
-  // {
-  //   id: 'exp-4',
-  //   title: 'Your Job Title',
-  //   company: 'Company Name',
-  //   companyLogo: '/logos/company.png',  // Optional
-  //   location: 'City, Country',
-  //   type: 'full-time',
-  //   startDate: 'YYYY-MM',
-  //   endDate: 'YYYY-MM',  // Remove for current position
-  //   current: false,
-  //   description: 'Brief description of your role and responsibilities.',
-  //   achievements: [
-  //     'Achievement with metrics...',
-  //     'Another achievement...',
-  //   ],
-  //   technologies: ['Tech1', 'Tech2', 'Tech3'],
-  // },
+  {
+    id: 'exp-4',
+    title: 'Senior Software Developer',
+    company: 'Navigator',
+    location: 'Novi Sad, Serbia',
+    type: 'full-time',
+    startDate: '2009-06',
+    endDate: '2010-10',
+    current: false,
+    description:
+      'Development of digital learning system and B2B e-commerce platform.',
+    achievements: [
+      'Development of online digital learning system Mentor using Java EE 6, ICEfaces, JPA and Tomcat',
+      'Development of B2B system eSquirrel commerce using Java EE 6, ICEfaces, EJB3, JPA and GlassFish Server',
+      'Actively participated in team with more than ten members using SCRUM agile methodology with JIRA',
+    ],
+    technologies: [
+      'Java EE 6',
+      'ICEfaces',
+      'JPA',
+      'EJB3',
+      'Tomcat',
+      'GlassFish Server',
+      'JIRA',
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // EARLIER POSITION
+  // ---------------------------------------------------------------------------
+  {
+    id: 'exp-5',
+    title: 'Medior Java Developer',
+    company: 'Hintech',
+    location: 'Novi Sad, Serbia',
+    type: 'full-time',
+    startDate: '2009-01',
+    endDate: '2009-06',
+    current: false,
+    description:
+      'Development of payment platform PAY.ON working on core transaction-processing engine.',
+    achievements: [
+      'Development of payment platform PAY.ON working on core transaction-processing engine',
+      'Built to process massive concurrent transaction loads in high-availability environment',
+      'Technologies used: Java, Spring Framework, Hibernate, JSP and Tomcat',
+      'Communicated daily with project owner discussing problems and solutions',
+    ],
+    technologies: ['Java', 'Spring Framework', 'Hibernate', 'JSP', 'Tomcat'],
+  },
+
+  // ---------------------------------------------------------------------------
+  // EARLIER POSITION
+  // ---------------------------------------------------------------------------
+  {
+    id: 'exp-6',
+    title: 'Application Programmer',
+    company: 'Archives of Vojvodina',
+    location: 'Novi Sad, Serbia',
+    type: 'full-time',
+    startDate: '2007-03',
+    endDate: '2009-01',
+    current: false,
+    description:
+      'Research, design and implementation of scalable applications for information systems.',
+    achievements: [
+      'Researched, designed and implemented scalable applications for information identification, extraction, analysis, retrieval and indexing',
+      'Development of information system ISAV for Archive of Vojvodina',
+      'Development of document management system - electronic archive for banks',
+      'Development of PhoneArchiver for analyzing and tracking phone calls',
+    ],
+    technologies: [
+      'Java',
+      'Java EE 5',
+      'JSF',
+      'JPA',
+      'Swing',
+      'GlassFish Server',
+    ],
+  },
 ];
 
 // =============================================================================

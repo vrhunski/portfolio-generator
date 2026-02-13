@@ -82,12 +82,14 @@ export interface Language {
  * Add, remove, or rename categories as needed.
  */
 export const skillCategories: string[] = [
-  'Languages',    // Programming languages
+  'Languages',     // Programming languages
   'Frontend',     // Frontend frameworks & libraries
   'Backend',      // Backend frameworks & technologies
+  'Frameworks',   // Java frameworks
   'Databases',    // Database technologies
   'Cloud',        // Cloud platforms & services
   'DevOps',       // DevOps tools & practices
+  'Tools',        // Development tools
   // Add more categories here:
   // 'Mobile',
   // 'Design',
@@ -108,26 +110,56 @@ export const skills: Skill[] = [
   // PROGRAMMING LANGUAGES
   // ---------------------------------------------------------------------------
   {
-    name: 'TypeScript',
+    name: 'Java',
     level: 95,
     category: 'Languages',
-    yearsOfExperience: 5,
+    yearsOfExperience: 15,
+  },
+  {
+    name: 'SQL',
+    level: 85,
+    category: 'Languages',
+    yearsOfExperience: 12,
   },
   {
     name: 'JavaScript',
-    level: 95,
+    level: 80,
     category: 'Languages',
     yearsOfExperience: 8,
   },
   {
-    name: 'Python',
-    level: 80,
+    name: 'TypeScript',
+    level: 75,
     category: 'Languages',
-    yearsOfExperience: 4,
+    yearsOfExperience: 5,
   },
   {
-    name: 'Go',
+    name: 'HTML/CSS',
+    level: 80,
+    category: 'Languages',
+    yearsOfExperience: 10,
+  },
+  {
+    name: 'PHP',
     level: 65,
+    category: 'Languages',
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'C/C++',
+    level: 50,
+    category: 'Languages',
+    yearsOfExperience: 3,
+  },
+  {
+    name: 'Python',
+    level: 45,
+    category: 'Languages',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'MATLAB',
+    level: 40,
     category: 'Languages',
     yearsOfExperience: 2,
   },
@@ -136,117 +168,299 @@ export const skills: Skill[] = [
   // FRONTEND
   // ---------------------------------------------------------------------------
   {
-    name: 'React',
-    level: 95,
+    name: 'Angular',
+    level: 85,
     category: 'Frontend',
     yearsOfExperience: 6,
   },
   {
-    name: 'Next.js',
-    level: 90,
+    name: 'JSF',
+    level: 80,
+    category: 'Frontend',
+    yearsOfExperience: 8,
+  },
+  {
+    name: 'PrimeFaces',
+    level: 80,
+    category: 'Frontend',
+    yearsOfExperience: 7,
+  },
+  {
+    name: 'RichFaces',
+    level: 75,
+    category: 'Frontend',
+    yearsOfExperience: 6,
+  },
+  {
+    name: 'ICEfaces',
+    level: 70,
     category: 'Frontend',
     yearsOfExperience: 4,
   },
   {
-    name: 'Tailwind CSS',
-    level: 90,
+    name: 'JSP',
+    level: 85,
     category: 'Frontend',
-    yearsOfExperience: 3,
+    yearsOfExperience: 12,
   },
   {
-    name: 'Vue.js',
+    name: 'jQuery',
     level: 70,
     category: 'Frontend',
-    yearsOfExperience: 2,
+    yearsOfExperience: 6,
+  },
+  {
+    name: 'Selenium',
+    level: 70,
+    category: 'Frontend',
+    yearsOfExperience: 5,
   },
 
   // ---------------------------------------------------------------------------
   // BACKEND
   // ---------------------------------------------------------------------------
   {
-    name: 'Node.js',
+    name: 'RESTful API',
     level: 90,
     category: 'Backend',
-    yearsOfExperience: 6,
+    yearsOfExperience: 10,
   },
   {
-    name: 'Express',
-    level: 88,
+    name: 'SOAP',
+    level: 85,
     category: 'Backend',
-    yearsOfExperience: 5,
-  },
-  {
-    name: 'Django',
-    level: 75,
-    category: 'Backend',
-    yearsOfExperience: 3,
+    yearsOfExperience: 8,
   },
   {
     name: 'GraphQL',
-    level: 80,
+    level: 50,
     category: 'Backend',
-    yearsOfExperience: 3,
+    yearsOfExperience: 2,
+  },
+
+  // ---------------------------------------------------------------------------
+  // JAVA FRAMEWORKS
+  // ---------------------------------------------------------------------------
+  {
+    name: 'Spring Framework',
+    level: 90,
+    category: 'Frameworks',
+    yearsOfExperience: 10,
+  },
+  {
+    name: 'Spring Boot',
+    level: 90,
+    category: 'Frameworks',
+    yearsOfExperience: 8,
+  },
+  {
+    name: 'Spring Batch',
+    level: 80,
+    category: 'Frameworks',
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'Spring Cloud',
+    level: 75,
+    category: 'Frameworks',
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'Java EE',
+    level: 90,
+    category: 'Frameworks',
+    yearsOfExperience: 12,
+  },
+  {
+    name: 'EJB',
+    level: 80,
+    category: 'Frameworks',
+    yearsOfExperience: 8,
+  },
+  {
+    name: 'Hibernate',
+    level: 90,
+    category: 'Frameworks',
+    yearsOfExperience: 12,
   },
 
   // ---------------------------------------------------------------------------
   // DATABASES
   // ---------------------------------------------------------------------------
   {
+    name: 'DB2',
+    level: 80,
+    category: 'Databases',
+    yearsOfExperience: 6,
+  },
+  {
+    name: 'MySQL',
+    level: 75,
+    category: 'Databases',
+    yearsOfExperience: 8,
+  },
+  {
     name: 'PostgreSQL',
-    level: 85,
+    level: 70,
     category: 'Databases',
     yearsOfExperience: 5,
   },
   {
-    name: 'MongoDB',
-    level: 80,
+    name: 'Oracle',
+    level: 65,
     category: 'Databases',
-    yearsOfExperience: 4,
+    yearsOfExperience: 5,
   },
   {
-    name: 'Redis',
+    name: 'ElasticSearch',
     level: 75,
     category: 'Databases',
-    yearsOfExperience: 3,
+    yearsOfExperience: 5,
   },
 
   // ---------------------------------------------------------------------------
-  // CLOUD & DEVOPS
+  // CLOUD
   // ---------------------------------------------------------------------------
   {
     name: 'AWS',
-    level: 85,
+    level: 75,
     category: 'Cloud',
-    yearsOfExperience: 4,
-  },
-  {
-    name: 'Docker',
-    level: 85,
-    category: 'DevOps',
-    yearsOfExperience: 4,
-  },
-  {
-    name: 'Kubernetes',
-    level: 70,
-    category: 'DevOps',
-    yearsOfExperience: 2,
-  },
-  {
-    name: 'CI/CD',
-    level: 85,
-    category: 'DevOps',
-    yearsOfExperience: 4,
+    yearsOfExperience: 5,
   },
 
   // ---------------------------------------------------------------------------
-  // ADD MORE SKILLS HERE
+  // DEVOPS
   // ---------------------------------------------------------------------------
-  // {
-  //   name: 'Your Skill',
-  //   level: 85,
-  //   category: 'Category Name',
-  //   yearsOfExperience: 3,
-  // },
+  {
+    name: 'Docker',
+    level: 70,
+    category: 'DevOps',
+    yearsOfExperience: 4,
+  },
+  {
+    name: 'Jenkins',
+    level: 80,
+    category: 'DevOps',
+    yearsOfExperience: 8,
+  },
+  {
+    name: 'Bamboo',
+    level: 75,
+    category: 'DevOps',
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'GitLab',
+    level: 80,
+    category: 'DevOps',
+    yearsOfExperience: 7,
+  },
+  {
+    name: 'Sonar',
+    level: 75,
+    category: 'DevOps',
+    yearsOfExperience: 6,
+  },
+  {
+    name: 'Artifactory',
+    level: 70,
+    category: 'DevOps',
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'Nexus',
+    level: 70,
+    category: 'DevOps',
+    yearsOfExperience: 5,
+  },
+
+  // ---------------------------------------------------------------------------
+  // TOOLS
+  // ---------------------------------------------------------------------------
+  {
+    name: 'Git',
+    level: 85,
+    category: 'Tools',
+    yearsOfExperience: 10,
+  },
+  {
+    name: 'SVN',
+    level: 80,
+    category: 'Tools',
+    yearsOfExperience: 10,
+  },
+  {
+    name: 'IntelliJ',
+    level: 90,
+    category: 'Tools',
+    yearsOfExperience: 10,
+  },
+  {
+    name: 'Eclipse IDE',
+    level: 85,
+    category: 'Tools',
+    yearsOfExperience: 12,
+  },
+  {
+    name: 'Visual Studio Code',
+    level: 80,
+    category: 'Tools',
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'NetBeans',
+    level: 75,
+    category: 'Tools',
+    yearsOfExperience: 8,
+  },
+  {
+    name: 'JIRA',
+    level: 85,
+    category: 'Tools',
+    yearsOfExperience: 10,
+  },
+  {
+    name: 'Maven',
+    level: 85,
+    category: 'Tools',
+    yearsOfExperience: 10,
+  },
+  {
+    name: 'Gradle',
+    level: 80,
+    category: 'Tools',
+    yearsOfExperience: 7,
+  },
+  {
+    name: 'Ant',
+    level: 70,
+    category: 'Tools',
+    yearsOfExperience: 8,
+  },
+  {
+    name: 'Tomcat',
+    level: 90,
+    category: 'Tools',
+    yearsOfExperience: 12,
+  },
+  {
+    name: 'GlassFish',
+    level: 80,
+    category: 'Tools',
+    yearsOfExperience: 8,
+  },
+  {
+    name: 'WildFly',
+    level: 75,
+    category: 'Tools',
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'JBoss',
+    level: 70,
+    category: 'Tools',
+    yearsOfExperience: 5,
+  },
 ];
 
 /**
@@ -257,11 +471,9 @@ export const skills: Skill[] = [
  * List the languages you speak and your proficiency level.
  */
 export const languages: Language[] = [
-  { name: 'English', level: 'Native' },
-  { name: 'Spanish', level: 'Professional' },
-  { name: 'French', level: 'Basic' },
-  // Add more languages here:
-  // { name: 'German', level: 'Intermediate' },
+  { name: 'Serbian', level: 'Native' },
+  { name: 'English', level: 'Professional' },
+  { name: 'German', level: 'Intermediate' },
 ];
 
 // =============================================================================

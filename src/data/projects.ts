@@ -134,6 +134,7 @@ export const projectCategories: string[] = [
   'Mobile App',
   'Data Visualization',
   'Developer Tools',
+  'Enterprise',
   // Add more categories here:
   // 'E-Commerce',
   // 'AI/ML',
@@ -148,153 +149,17 @@ export const projectCategories: string[] = [
  *
  * Replace these example projects with your actual projects.
  * Mark your best 3-4 projects as featured.
+ *
+ * NOTE: No specific projects were listed in the CV.
+ * Add your project portfolio here.
  */
 export const projects: Project[] = [
   // ---------------------------------------------------------------------------
-  // FEATURED PROJECT 1
+  // ADD YOUR PROJECTS HERE
   // ---------------------------------------------------------------------------
-  {
-    id: 'proj-1',
-    slug: 'e-commerce-platform',
-    title: 'E-Commerce Platform',
-    description:
-      'Full-stack e-commerce solution with real-time inventory management and payment processing.',
-    longDescription: `Built a comprehensive e-commerce platform from scratch, featuring real-time inventory tracking, 
-    secure payment processing with Stripe, and an admin dashboard for order management. The platform handles 
-    thousands of concurrent users and processes over $2M in transactions monthly.`,
-    thumbnail: '/projects/ecommerce-thumb.jpg',
-    images: [
-      '/projects/ecommerce-1.jpg',
-      '/projects/ecommerce-2.jpg',
-      '/projects/ecommerce-3.jpg',
-    ],
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Stripe', 'Redis', 'AWS'],
-    category: 'Web Application',
-    role: 'Lead Developer',
-    duration: '6 months',
-    liveUrl: 'https://example-ecommerce.com',
-    githubUrl: 'https://github.com/alexjohnson/ecommerce',
-    featured: true,
-    highlights: [
-      'Processed $2M+ in transactions',
-      '99.9% uptime over 2 years',
-      '50ms average API response time',
-      'Handles 10K+ concurrent users',
-    ],
-  },
-
-  // ---------------------------------------------------------------------------
-  // FEATURED PROJECT 2
-  // ---------------------------------------------------------------------------
-  {
-    id: 'proj-2',
-    slug: 'task-management-app',
-    title: 'TaskFlow - Task Management',
-    description:
-      'Collaborative task management application with real-time updates and team features.',
-    longDescription: `A modern task management application designed for remote teams. Features include 
-    real-time collaboration, Kanban boards, time tracking, and integrations with popular tools like 
-    Slack and GitHub.`,
-    thumbnail: '/projects/taskflow-thumb.jpg',
-    images: ['/projects/taskflow-1.jpg', '/projects/taskflow-2.jpg'],
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Docker'],
-    category: 'SaaS',
-    role: 'Full-Stack Developer',
-    duration: '4 months',
-    liveUrl: 'https://taskflow-demo.com',
-    githubUrl: 'https://github.com/alexjohnson/taskflow',
-    featured: true,
-    highlights: [
-      '5K+ active users',
-      'Real-time collaboration',
-      '15+ third-party integrations',
-      '4.8/5 user rating',
-    ],
-  },
-
-  // ---------------------------------------------------------------------------
-  // FEATURED PROJECT 3
-  // ---------------------------------------------------------------------------
-  {
-    id: 'proj-3',
-    slug: 'analytics-dashboard',
-    title: 'DataViz Analytics Dashboard',
-    description:
-      'Interactive analytics dashboard with customizable charts and real-time data visualization.',
-    thumbnail: '/projects/analytics-thumb.jpg',
-    images: ['/projects/analytics-1.jpg', '/projects/analytics-2.jpg'],
-    technologies: ['React', 'D3.js', 'Python', 'FastAPI', 'PostgreSQL'],
-    category: 'Data Visualization',
-    role: 'Frontend Lead',
-    duration: '3 months',
-    // liveUrl: undefined,  // No live demo
-    // githubUrl: undefined,  // Private repository
-    featured: true,
-    highlights: [
-      '20+ chart types',
-      'Export to PDF/Excel',
-      'Custom report builder',
-      'Role-based access control',
-    ],
-  },
-
-  // ---------------------------------------------------------------------------
-  // NON-FEATURED PROJECT
-  // ---------------------------------------------------------------------------
-  {
-    id: 'proj-4',
-    slug: 'mobile-fitness-app',
-    title: 'FitTrack Mobile App',
-    description:
-      'Cross-platform fitness tracking application with workout plans and progress analytics.',
-    thumbnail: '/projects/fitness-thumb.jpg',
-    images: ['/projects/fitness-1.jpg', '/projects/fitness-2.jpg'],
-    technologies: ['React Native', 'TypeScript', 'Firebase', 'Node.js'],
-    category: 'Mobile App',
-    role: 'Mobile Developer',
-    duration: '5 months',
-    // liveUrl: undefined,  // App store link would go here
-    githubUrl: 'https://github.com/alexjohnson/fittrack',
-    featured: false,
-    highlights: [
-      'iOS & Android support',
-      'Offline-first architecture',
-      'Wearable device integration',
-      '10K+ downloads',
-    ],
-  },
-
-  // ---------------------------------------------------------------------------
-  // NON-FEATURED PROJECT
-  // ---------------------------------------------------------------------------
-  {
-    id: 'proj-5',
-    slug: 'open-source-cli',
-    title: 'DevToolkit CLI',
-    description:
-      'Open-source command-line toolkit for developers with code generation and automation.',
-    thumbnail: '/projects/cli-thumb.jpg',
-    images: ['/projects/cli-1.jpg'],
-    technologies: ['Go', 'Cobra', 'Docker'],
-    category: 'Developer Tools',
-    role: 'Creator & Maintainer',
-    duration: 'Ongoing',
-    // liveUrl: undefined,  // CLI tools usually don't have live URLs
-    githubUrl: 'https://github.com/alexjohnson/devtoolkit',
-    featured: false,
-    highlights: [
-      '2K+ GitHub stars',
-      '500+ contributors',
-      'Used by 100+ companies',
-      'Weekly releases',
-    ],
-  },
-
-  // ---------------------------------------------------------------------------
-  // ADD MORE PROJECTS HERE
-  // ---------------------------------------------------------------------------
+  // To add a project, uncomment and fill in the template below:
   // {
-  //   id: 'proj-6',
+  //   id: 'proj-1',
   //   slug: 'your-project-slug',
   //   title: 'Your Project Title',
   //   description: 'Short description of your project...',
@@ -307,7 +172,7 @@ export const projects: Project[] = [
   //   duration: '3 months',
   //   liveUrl: 'https://your-project.com',  // Optional
   //   githubUrl: 'https://github.com/you/project',  // Optional
-  //   featured: false,
+  //   featured: true,
   //   highlights: [
   //     'Highlight 1 with metrics',
   //     'Highlight 2',
